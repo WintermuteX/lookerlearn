@@ -28,6 +28,7 @@ view: order_items {
       week,
       month,
       quarter,
+      quarter_of_year,
       year
     ]
     sql: ${TABLE}.returned_at ;;
