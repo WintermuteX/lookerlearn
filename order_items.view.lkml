@@ -36,7 +36,7 @@ view: order_items {
 
   dimension: returned_yesno {
     type: yesno
-    sql: returned is not null ;;
+    sql: ${returned_year} is not null ;;
   }
 
   dimension: sale_price {
