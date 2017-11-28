@@ -34,6 +34,11 @@ view: order_items {
     sql: ${TABLE}.returned_at ;;
   }
 
+  dimension: returned_yesno {
+    type: yesno
+    sql: returned is not null ;;
+  }
+
   dimension: sale_price {
     type: number
     sql: ${TABLE}.sale_price ;;
